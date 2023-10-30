@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A001B05D2AB173EB0071E974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B05C2AB173EB0071E974 /* AppDelegate.swift */; };
+		A001B05F2AB173EB0071E974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B05E2AB173EB0071E974 /* SceneDelegate.swift */; };
+		A001B0612AB173EB0071E974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B0602AB173EB0071E974 /* ViewController.swift */; };
+		A001B0642AB173EB0071E974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0622AB173EB0071E974 /* Main.storyboard */; };
+		A001B0662AB173EC0071E974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001B0652AB173EC0071E974 /* Assets.xcassets */; };
+		A001B0692AB173EC0071E974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0672AB173EC0071E974 /* LaunchScreen.storyboard */; };
+		A001B0742AB173ED0071E974 /* Project_BraemarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B0732AB173ED0071E974 /* Project_BraemarTests.swift */; };
+		A001B07E2AB173ED0071E974 /* Project_BraemarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B07D2AB173ED0071E974 /* Project_BraemarUITests.swift */; };
+		A001B0802AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B07F2AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift */; };
+		A03199142AD64C090028BB9E /* Lessons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03199132AD64C090028BB9E /* Lessons.storyboard */; };
+		A03199162AD8D2770028BB9E /* Portals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03199152AD8D2770028BB9E /* Portals.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A001B0702AB173ED0071E974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001B0512AB173EB0071E974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A001B0582AB173EB0071E974;
+			remoteInfo = "Project Braemar";
+		};
+		A001B07A2AB173ED0071E974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A001B0512AB173EB0071E974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A001B0582AB173EB0071E974;
+			remoteInfo = "Project Braemar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A001B0592AB173EB0071E974 /* Project Braemar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Braemar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B05C2AB173EB0071E974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A001B05E2AB173EB0071E974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A001B0602AB173EB0071E974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A001B0632AB173EB0071E974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A001B0652AB173EC0071E974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A001B0682AB173EC0071E974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A001B06A2AB173EC0071E974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001B06F2AB173ED0071E974 /* Project BraemarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project BraemarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B0732AB173ED0071E974 /* Project_BraemarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_BraemarTests.swift; sourceTree = "<group>"; };
+		A001B0792AB173ED0071E974 /* Project BraemarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project BraemarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A001B07D2AB173ED0071E974 /* Project_BraemarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_BraemarUITests.swift; sourceTree = "<group>"; };
+		A001B07F2AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_BraemarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A03199132AD64C090028BB9E /* Lessons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lessons.storyboard; sourceTree = "<group>"; };
+		A03199152AD8D2770028BB9E /* Portals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Portals.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A001B0562AB173EB0071E974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B06C2AB173ED0071E974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B0762AB173ED0071E974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A001B0502AB173EB0071E974 = {
+			isa = PBXGroup;
+			children = (
+				A001B05B2AB173EB0071E974 /* Project Braemar */,
+				A001B0722AB173ED0071E974 /* Project BraemarTests */,
+				A001B07C2AB173ED0071E974 /* Project BraemarUITests */,
+				A001B05A2AB173EB0071E974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A001B05A2AB173EB0071E974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A001B0592AB173EB0071E974 /* Project Braemar.app */,
+				A001B06F2AB173ED0071E974 /* Project BraemarTests.xctest */,
+				A001B0792AB173ED0071E974 /* Project BraemarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A001B05B2AB173EB0071E974 /* Project Braemar */ = {
+			isa = PBXGroup;
+			children = (
+				A001B05C2AB173EB0071E974 /* AppDelegate.swift */,
+				A001B05E2AB173EB0071E974 /* SceneDelegate.swift */,
+				A001B0602AB173EB0071E974 /* ViewController.swift */,
+				A001B0622AB173EB0071E974 /* Main.storyboard */,
+				A03199132AD64C090028BB9E /* Lessons.storyboard */,
+				A03199152AD8D2770028BB9E /* Portals.storyboard */,
+				A001B0652AB173EC0071E974 /* Assets.xcassets */,
+				A001B0672AB173EC0071E974 /* LaunchScreen.storyboard */,
+				A001B06A2AB173EC0071E974 /* Info.plist */,
+			);
+			path = "Project Braemar";
+			sourceTree = "<group>";
+		};
+		A001B0722AB173ED0071E974 /* Project BraemarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A001B0732AB173ED0071E974 /* Project_BraemarTests.swift */,
+			);
+			path = "Project BraemarTests";
+			sourceTree = "<group>";
+		};
+		A001B07C2AB173ED0071E974 /* Project BraemarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A001B07D2AB173ED0071E974 /* Project_BraemarUITests.swift */,
+				A001B07F2AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift */,
+			);
+			path = "Project BraemarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A001B0582AB173EB0071E974 /* Project Braemar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001B0832AB173ED0071E974 /* Build configuration list for PBXNativeTarget "Project Braemar" */;
+			buildPhases = (
+				A001B0552AB173EB0071E974 /* Sources */,
+				A001B0562AB173EB0071E974 /* Frameworks */,
+				A001B0572AB173EB0071E974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Braemar";
+			productName = "Project Braemar";
+			productReference = A001B0592AB173EB0071E974 /* Project Braemar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A001B06E2AB173ED0071E974 /* Project BraemarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001B0862AB173ED0071E974 /* Build configuration list for PBXNativeTarget "Project BraemarTests" */;
+			buildPhases = (
+				A001B06B2AB173ED0071E974 /* Sources */,
+				A001B06C2AB173ED0071E974 /* Frameworks */,
+				A001B06D2AB173ED0071E974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A001B0712AB173ED0071E974 /* PBXTargetDependency */,
+			);
+			name = "Project BraemarTests";
+			productName = "Project BraemarTests";
+			productReference = A001B06F2AB173ED0071E974 /* Project BraemarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A001B0782AB173ED0071E974 /* Project BraemarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A001B0892AB173ED0071E974 /* Build configuration list for PBXNativeTarget "Project BraemarUITests" */;
+			buildPhases = (
+				A001B0752AB173ED0071E974 /* Sources */,
+				A001B0762AB173ED0071E974 /* Frameworks */,
+				A001B0772AB173ED0071E974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A001B07B2AB173ED0071E974 /* PBXTargetDependency */,
+			);
+			name = "Project BraemarUITests";
+			productName = "Project BraemarUITests";
+			productReference = A001B0792AB173ED0071E974 /* Project BraemarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A001B0512AB173EB0071E974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A001B0582AB173EB0071E974 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A001B06E2AB173ED0071E974 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A001B0582AB173EB0071E974;
+					};
+					A001B0782AB173ED0071E974 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A001B0582AB173EB0071E974;
+					};
+				};
+			};
+			buildConfigurationList = A001B0542AB173EB0071E974 /* Build configuration list for PBXProject "Project Braemar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A001B0502AB173EB0071E974;
+			productRefGroup = A001B05A2AB173EB0071E974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A001B0582AB173EB0071E974 /* Project Braemar */,
+				A001B06E2AB173ED0071E974 /* Project BraemarTests */,
+				A001B0782AB173ED0071E974 /* Project BraemarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A001B0572AB173EB0071E974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001B0692AB173EC0071E974 /* LaunchScreen.storyboard in Resources */,
+				A03199162AD8D2770028BB9E /* Portals.storyboard in Resources */,
+				A001B0662AB173EC0071E974 /* Assets.xcassets in Resources */,
+				A03199142AD64C090028BB9E /* Lessons.storyboard in Resources */,
+				A001B0642AB173EB0071E974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B06D2AB173ED0071E974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B0772AB173ED0071E974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A001B0552AB173EB0071E974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001B0612AB173EB0071E974 /* ViewController.swift in Sources */,
+				A001B05D2AB173EB0071E974 /* AppDelegate.swift in Sources */,
+				A001B05F2AB173EB0071E974 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B06B2AB173ED0071E974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001B0742AB173ED0071E974 /* Project_BraemarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A001B0752AB173ED0071E974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001B07E2AB173ED0071E974 /* Project_BraemarUITests.swift in Sources */,
+				A001B0802AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A001B0712AB173ED0071E974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A001B0582AB173EB0071E974 /* Project Braemar */;
+			targetProxy = A001B0702AB173ED0071E974 /* PBXContainerItemProxy */;
+		};
+		A001B07B2AB173ED0071E974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A001B0582AB173EB0071E974 /* Project Braemar */;
+			targetProxy = A001B07A2AB173ED0071E974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A001B0622AB173EB0071E974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001B0632AB173EB0071E974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A001B0672AB173EC0071E974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A001B0682AB173EC0071E974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A001B0812AB173ED0071E974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A001B0822AB173ED0071E974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A001B0842AB173ED0071E974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project Braemar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamish.Project-Braemar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A001B0852AB173ED0071E974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project Braemar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamish.Project-Braemar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A001B0872AB173ED0071E974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamish.Project-BraemarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Braemar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Project Braemar";
+			};
+			name = Debug;
+		};
+		A001B0882AB173ED0071E974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamish.Project-BraemarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Braemar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Project Braemar";
+			};
+			name = Release;
+		};
+		A001B08A2AB173ED0071E974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamish.Project-BraemarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project Braemar";
+			};
+			name = Debug;
+		};
+		A001B08B2AB173ED0071E974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamish.Project-BraemarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project Braemar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A001B0542AB173EB0071E974 /* Build configuration list for PBXProject "Project Braemar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B0812AB173ED0071E974 /* Debug */,
+				A001B0822AB173ED0071E974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001B0832AB173ED0071E974 /* Build configuration list for PBXNativeTarget "Project Braemar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B0842AB173ED0071E974 /* Debug */,
+				A001B0852AB173ED0071E974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001B0862AB173ED0071E974 /* Build configuration list for PBXNativeTarget "Project BraemarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B0872AB173ED0071E974 /* Debug */,
+				A001B0882AB173ED0071E974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A001B0892AB173ED0071E974 /* Build configuration list for PBXNativeTarget "Project BraemarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A001B08A2AB173ED0071E974 /* Debug */,
+				A001B08B2AB173ED0071E974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A001B0512AB173EB0071E974 /* Project object */;
+}
