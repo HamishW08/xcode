@@ -12,7 +12,6 @@
 		A001B0612AB173EB0071E974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B0602AB173EB0071E974 /* ViewController.swift */; };
 		A001B0642AB173EB0071E974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0622AB173EB0071E974 /* Main.storyboard */; };
 		A001B0662AB173EC0071E974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001B0652AB173EC0071E974 /* Assets.xcassets */; };
-		A001B0692AB173EC0071E974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001B0672AB173EC0071E974 /* LaunchScreen.storyboard */; };
 		A001B0742AB173ED0071E974 /* Project_BraemarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B0732AB173ED0071E974 /* Project_BraemarTests.swift */; };
 		A001B07E2AB173ED0071E974 /* Project_BraemarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B07D2AB173ED0071E974 /* Project_BraemarUITests.swift */; };
 		A001B0802AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001B07F2AB173ED0071E974 /* Project_BraemarUITestsLaunchTests.swift */; };
@@ -44,7 +43,6 @@
 		A001B0602AB173EB0071E974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A001B0632AB173EB0071E974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A001B0652AB173EC0071E974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A001B0682AB173EC0071E974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A001B06A2AB173EC0071E974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A001B06F2AB173ED0071E974 /* Project BraemarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project BraemarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A001B0732AB173ED0071E974 /* Project_BraemarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_BraemarTests.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				A03199132AD64C090028BB9E /* Lessons.storyboard */,
 				A03199152AD8D2770028BB9E /* Portals.storyboard */,
 				A001B0652AB173EC0071E974 /* Assets.xcassets */,
-				A001B0672AB173EC0071E974 /* LaunchScreen.storyboard */,
 				A001B06A2AB173EC0071E974 /* Info.plist */,
 			);
 			path = "Project Braemar";
@@ -237,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A001B0692AB173EC0071E974 /* LaunchScreen.storyboard in Resources */,
 				A03199162AD8D2770028BB9E /* Portals.storyboard in Resources */,
 				A001B0662AB173EC0071E974 /* Assets.xcassets in Resources */,
 				A03199142AD64C090028BB9E /* Lessons.storyboard in Resources */,
@@ -311,14 +307,6 @@
 				A001B0632AB173EB0071E974 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A001B0672AB173EC0071E974 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A001B0682AB173EC0071E974 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
