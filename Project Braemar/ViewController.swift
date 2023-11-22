@@ -20,4 +20,7 @@ class LoadingViewController: UIViewController {
             }
         }
     }
+    @IBAction func wordbuttonpress(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.office.com/launch/word"  )! as URL, options: [:], completionHandler: nil)
+    }
 }
